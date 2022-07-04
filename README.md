@@ -75,6 +75,9 @@ we can visualize the 2D curve with iterated sequence. Such that
 
 | <img src="https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/sd/Figure_sd_1.png"> |
 
++------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| .. image:: https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/sd/Figure_sd_2.png    |  .. image:: https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/sd/Figure_sd_3.png   |
++------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
 
 | <img src="https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/sd/Figure_sd_2.png">  |  <img src="https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/sd/Figure_sd_3.png"> |
 
