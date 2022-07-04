@@ -71,13 +71,13 @@ Use a simple line of code for unconstrained optimizer
 ```python
 optimizer.plot()
 ```
-we can visualize the 2D curve with iterated sequence. Such that
+we can visualize the 2D curve with iterated sequence, such that
 
 
 | <img src="https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/sd/Figure_sd_1.png"> |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-
+Or with the 3D surface with iterated sequence, and its contour with iterated sequence.
 | <img src="https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/sd/Figure_sd_2.png">  |  <img src="https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/sd/Figure_sd_3.png"> |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 
