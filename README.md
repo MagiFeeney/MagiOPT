@@ -113,5 +113,6 @@ we can visualize the function and sequence of each inner iteration with the 3D s
   ```python
   optimization.sequence
   ```
+- Your function should be supported by torch operation, however, not necessarily to your input, which can be numpy array, torch tensor or even a list 
 ## Requirements
 - Pytorch 3.7 or above
