@@ -84,7 +84,7 @@ optimizer = optim.Penalty(..., plot=True)
 ```
 we can visualize the function and sequence of each inner iteration with the 3D surface with iterated sequence, and its contour with iterated sequence.
 
-
+| ------ | ------ |
 | <img src="https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/penalty/Figure_1.png">  |  <img src="https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/penalty/Figure_2.png"> |
 
 | <img src="https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/penalty/Figure_3.png">  |  <img src="https://github.com/MagiFeeney/MagiOPT/blob/859f80525d66a1d6799024721b8fb5a508a9ae6f/MagiOPT/examples/penalty/Figure_4.png"> |
