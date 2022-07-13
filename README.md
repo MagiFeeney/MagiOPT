@@ -17,35 +17,35 @@ $ cd MagiOPT
 ## How to use
 - Unconstrained
 ```python
-    import MagiOPT as optim
+import MagiOPT as optim
     
-    def func(x):
-        ...
+def func(x):
+    ...
         
-    optimizer = optim.SD(func) # Steepest Descent
-    x = optimizer.step(x0)     # On-the-fly
-    optimizer.plot()           # Visualize
+optimizer = optim.SD(func) # Steepest Descent
+x = optimizer.step(x0)     # On-the-fly
+optimizer.plot()           # Visualize
 ```
 
 - Constrained
 ```python
-    import MagiOPT as optim
+import MagiOPT as optim
     
-    def object(x):
-        ...
-    def constr1(x):
-        ...
-    def constr2(x):
-        ...
+def object(x):
     ...
+def constr1(x):
+    ...
+def constr2(x):
+    ...
+...
     
-    optimizer = optim.Penalty(object, 
-                              sigma, 
-                              (constr1, '<='), 
-                              (constr2, '>='), 
-                              plot=True))       # Penalty methoed
-    optimizer.BFGS()                            # Inner optimizer
-    x = optimizer.step(x0)                      # On-the-fly
+optimizer = optim.Penalty(object, 
+                          sigma, 
+                          (constr1, '<='), 
+                          (constr2, '>='), 
+                          plot=True))       # Penalty methoed
+optimizer.BFGS()                            # Inner optimizer
+x = optimizer.step(x0)                      # On-the-fly
 ```
 ## Supported Optimizers
 | Unconstrained | Constrained |
