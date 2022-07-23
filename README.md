@@ -43,7 +43,7 @@ optimizer = optim.Penalty(object,
                           sigma, 
                           (constr1, '<='), 
                           (constr2, '>='), 
-                          plot=True))       # Penalty methoed
+                          plot=True)        # Penalty methoed
 optimizer.BFGS()                            # Inner optimizer
 x = optimizer.step(x0)                      # On-the-fly
 ```
