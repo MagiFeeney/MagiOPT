@@ -4,9 +4,9 @@
 ## Why MagiOPT?
 
 - Unified framework for both uncontrained and constrained optimization
-- Efficient and empowered by automatic differentiation engine of Pytorch
-- Use-friendly and modifiable whenever you want
-- Visualizable for both surface (or curve) and contour plot
+- Efficient and powered by PyTorch's automatic differentiation engine
+- User-friendly and easily modifiable
+- Visualization for both curve (or surface) and contour plots
 
 ## Installation
 ```
@@ -106,13 +106,13 @@ we can visualize the function and sequence of each inner iteration with the 3D s
 | ------ | ------ |
 
 ## Reminder
-- Majority of algorithms are sensitive to initial point; choosing properly will save a lot of your effort
-- Due to ill-conditioned situation, constrained optimizer may need you to trial-and-error
-- The behavior of Barzilai-Borwein method is not stable for non-qudratic problem, however, you can still infer path through an intermediate visualization
-- You can extract the sequence easily by
+- The majority of algorithms are sensitive to the initial point; choosing an appropriate starting point can save significant effort
+- In ill-conditioned situations, constrained optimizers may require trial and error.
+- The Barzilai-Borwein method is unstable for non-quadratic problems; however, you can still infer the optimization path through intermediate visualizations.
+- You can easily extract the optimization sequence using:
   ```python
   optimization.sequence
   ```
-- Your function should be supported by torch operation, however, not necessarily to your input, which can be numpy array, torch tensor or even a list 
+- Your function should be supported by PyTorch operations; however, the input doesn't have to be. It can be a NumPy array, PyTorch tensor, or even a list.
 ## Requirements
 - Pytorch 3.7 or above
