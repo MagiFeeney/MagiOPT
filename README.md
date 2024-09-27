@@ -106,7 +106,7 @@ we can visualize the function and sequence of each inner iteration with the 3D s
 | ------ | ------ |
 
 ## Reminder
-- The majority of algorithms are sensitive to the initial point; choosing an appropriate starting point can save significant effort
+- The majority of algorithms are sensitive to the initial point; choosing an appropriate starting point can save significant effort.
 - In ill-conditioned situations, constrained optimizers may require trial and error.
 - The Barzilai-Borwein method is unstable for non-quadratic problems; however, you can still infer the optimization path through intermediate visualizations.
 - You can easily extract the optimization sequence using:
